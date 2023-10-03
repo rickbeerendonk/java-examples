@@ -18,6 +18,7 @@ public class Comments {
     /*
     Multi
       // Nested line
+    line
     */
 
     System.out.println("3");
