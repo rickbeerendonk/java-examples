@@ -1,7 +1,7 @@
 // European Union Public License version 1.2
 // Copyright © 2023 Rick Beerendonk
 
-public class Comments {
+public class Var {
   public static void main(String... args) {
     // Explicit type
     int expl = 123;
