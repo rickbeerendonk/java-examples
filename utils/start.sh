@@ -20,5 +20,5 @@ if [[ $FILE == *.java ]]; then
     echo
 
     # javac "$FILE"
-    java "$FILE"
+    java --source 21 --enable-preview "$FILE"
 fi

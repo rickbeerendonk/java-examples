@@ -17,5 +17,5 @@ if "%FILE:~-4%" == ".kts" (
     rem javac -version
     echo.
 
-    call java "%FILE%"
+    call java --source 21 --enable-preview "%FILE%"
 )
