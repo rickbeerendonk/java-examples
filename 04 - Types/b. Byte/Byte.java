@@ -12,5 +12,10 @@ public class Main {
 
         // Error: incompatible types: possible lossy conversion from int to byte
         //byte x = implicit; 
+
+        System.out.println(Byte.class.getCanonicalName());      // java.lang.Byte
+        System.out.println(Byte.class.getName());               // java.lang.Byte 
+        System.out.println(Byte.class.getSimpleName());         // Boolean
+        System.out.println(Byte.class.getTypeName());           // java.lang.Byte
     }
 }
