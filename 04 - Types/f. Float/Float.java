@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args) {
       // Min and Max
 
-        System.out.println(Float.MIN_VALUE); // 1.4E-45
-        System.out.println(Float.MAX_VALUE); // 3.4028235E38
+        System.out.println("Min : " + Float.MIN_VALUE); // 1.4E-45
+        System.out.println("Max : " + Float.MAX_VALUE); // 3.4028235E38
+        System.out.println("Size: " + Float.SIZE);      // 32
 
         // Explicit vs Implicit
         
