@@ -2,13 +2,13 @@
 // Copyright © 2023 Rick Beerendonk
 
 public class Boolean {
-  public static void main(String... args) {
+  public static void main(String[] args) {
         System.out.println(true);
         System.out.println(false);
         
+        System.out.println(Boolean.class.getCanonicalName());      // Boolean
         System.out.println(Boolean.class.getName());               // Boolean 
         System.out.println(Boolean.class.getSimpleName());         // Boolean
-        System.out.println(Boolean.class.getCanonicalName());      // Boolean
         System.out.println(Boolean.class.getTypeName());           // Boolean
   }
 }

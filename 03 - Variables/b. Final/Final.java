@@ -2,7 +2,7 @@
 // Copyright © 2023 Rick Beerendonk
 
 public class Final {
-  public static void main(String... args) {
+  public static void main(String[] args) {
     // Explicit type
     final int expl = 123;
     

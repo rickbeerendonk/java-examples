@@ -2,7 +2,7 @@
 // Copyright © 2023 Rick Beerendonk
 
 public class Console {
-  public static void main(String... args) {
+  public static void main(String[] args) {
   	System.out.println("Hello Java!");
   }
 }
