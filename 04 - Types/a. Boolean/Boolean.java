@@ -6,9 +6,7 @@ public class Boolean {
         System.out.println(true);
         System.out.println(false);
         
-        System.out.println(Boolean.class.getCanonicalName());      // Boolean
         System.out.println(Boolean.class.getName());               // Boolean 
         System.out.println(Boolean.class.getSimpleName());         // Boolean
-        System.out.println(Boolean.class.getTypeName());           // Boolean
   }
 }
