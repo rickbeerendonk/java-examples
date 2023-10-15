@@ -3,9 +3,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Min:  " + Byte.MIN_VALUE); // -128
-        System.out.println("Max:  " + Byte.MAX_VALUE); // 127
-        System.out.println("Size: " + Byte.SIZE);      // 8
+        System.out.println("Min:   " + Byte.MIN_VALUE); // -128
+        System.out.println("Max:   " + Byte.MAX_VALUE); // 127
+        System.out.println("Bytes: " + Byte.BYTES);     // 1
+        System.out.println("Size:  " + Byte.SIZE);      // 8
 
         // Explicit vs Implicit
         byte explicit = 127;
