@@ -1,9 +1,7 @@
 // European Union Public License version 1.2
 // Copyright © 2023 Rick Beerendonk
 
-package org.functions.overloading;
-
-import java.util.function.Supplier;
+package org.functions.overload;
 
 public class Main {
     public static void test(int a) {
